@@ -6,14 +6,12 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-10 px-6">
       <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
-        
-        {/* Branding + frase */}
+
         <div>
           <h2 className="text-2xl font-bold mb-2">Terapias Holísticas</h2>
           <p className="text-sm italic">"Equilibrio, energía y bienestar desde el alma."</p>
         </div>
 
-        {/* Categorías del Commerce */}
         <div>
           <h3 className="text-lg font-semibold mb-2">Categorías</h3>
           <ul className="space-y-1 text-sm">
@@ -24,7 +22,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Redes sociales + contacto */}
         <div>
           <h3 className="text-lg font-semibold mb-2">Conectá conmigo</h3>
           <div className="flex space-x-4 text-xl mb-4">

@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, FormEvent, JSX, RefObject } from "react";
+import { useRef, FormEvent, JSX } from "react";
 import ScrollVelocity from "@/blocks/Components/ScrollVelocity/ScrollVelocity";
 
 const Contact = (): JSX.Element => {

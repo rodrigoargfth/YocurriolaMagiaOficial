@@ -13,12 +13,10 @@ import "swiper/css/pagination";
 import tarot from "@/assets/tarot.jpg";
 import reiki from "@/assets/reiki.jpg";
 
-
 import floresBach from "@/assets/productos/flowerBach.jpeg";
 import meditation from "@/assets/meditation.jpg";
 import constelacion from "@/assets/constelacion.jpg";
 
-// Interfaces para los tipos de datos
 interface ServicioItem {
   title: string;
   description: string;
@@ -56,7 +54,8 @@ const servicios: ServicioItem[] = [
   },
   {
     title: "Constelacion familiares y tarot en movimiento",
-    description: "Las constelaciones familiares se enriquecen mucho del tarot evolutivo.",
+    description:
+      "Las constelaciones familiares se enriquecen mucho del tarot evolutivo.",
     read: `Con todas estas variables. El tarot es un test psicológico para comprender donde está el bloqueo y encontrar la  explicación.
     Nos muestra el inconsciente del consultante.
     Este encuentro te permitirá:
@@ -71,7 +70,8 @@ const servicios: ServicioItem[] = [
 
 export const Services: React.FC<ServicesProps> = () => {
   const [open, setOpen] = React.useState<boolean>(false);
-  const [selectedService, setSelectedService] = React.useState<ServicioItem | null>(null);
+  const [selectedService, setSelectedService] =
+    React.useState<ServicioItem | null>(null);
 
   const handleOpen = (serv: ServicioItem): void => {
     setSelectedService(serv);
@@ -89,7 +89,6 @@ export const Services: React.FC<ServicesProps> = () => {
         Mis Terapias
       </h2>
 
-      {/* Carrusel Swiper */}
       <Swiper
         slidesPerView={1}
         spaceBetween={2}
@@ -119,7 +118,6 @@ export const Services: React.FC<ServicesProps> = () => {
         ))}
       </Swiper>
 
-      {/* Modal */}
       <Modal open={open} onClose={handleClose}>
         <Box
           sx={{

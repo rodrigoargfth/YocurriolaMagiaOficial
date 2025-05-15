@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Blog de Terapias Holísticas
 
-## Getting Started
+Este proyecto es un sitio web dedicado a compartir conocimientos y recursos sobre terapias holísticas, ofreciendo una plataforma informativa y educativa para aquellos interesados en el bienestar integral.
 
-First, run the development server:
+## Descripción del Proyecto
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+El blog se centra en promover el equilibrio entre cuerpo, mente y espíritu 
+, proporcionando contenido sobre diversas técnicas terapéuticas holísticas como meditación, acupuntura, aromaterapia y masoterapia.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Características Principales
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+✨ **Secciones Temáticas**
+- Artículos sobre técnicas terapéuticas
+- Beneficios de la terapia holística
+- Consejos prácticos para el bienestar
+- Recursos educativos
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📄 **Funcionalidades**
+- Sistema de publicación de artículos
+- Categorización por temas
+- Búsqueda integrada
+- Comentarios para interacción comunitaria
 
-## Learn More
+🎯 **Objetivo**
+Facilitar el acceso a información confiable sobre terapias holísticas y promover un estilo de vida más equilibrado y saludable.
 
-To learn more about Next.js, take a look at the following resources:
+## Tecnologías Utilizadas
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* TypeScripte
+* Javascript
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contribuciones
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Se aceptan contribuciones que mejoren la calidad del contenido y la funcionalidad del sitio. Para más información, consulta nuestra guía de contribución.

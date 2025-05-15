@@ -9,7 +9,7 @@ const Footer = () => {
 
         <div>
           <h2 className="text-2xl font-bold mb-2">Terapias Holísticas</h2>
-          <p className="text-sm italic">"Equilibrio, energía y bienestar desde el alma."</p>
+          <p className="text-sm italic">Equilibrio, energía y bienestar desde el alma.</p>
         </div>
 
         <div>

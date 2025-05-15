@@ -24,6 +24,7 @@ interface ServicioItem {
   image: string;
 }
 
+// eslint-disable-next-line @typescript-eslint/no-empty-interface
 interface ServicesProps {}
 
 const servicios: ServicioItem[] = [

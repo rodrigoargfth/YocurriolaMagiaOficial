@@ -22,7 +22,7 @@ const Banner: React.FC = () => {
   const progressContent = useRef<HTMLSpanElement | null>(null);
 
   const onAutoplayTimeLeft = (
-    _swiper: any,
+    _swiper: unknown,
     time: number,
     progress: number
   ) => {

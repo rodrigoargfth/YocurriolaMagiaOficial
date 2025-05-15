@@ -24,8 +24,6 @@ interface ServicioItem {
   image: string;
 }
 
-// eslint-disable-next-line @typescript-eslint/no-empty-interface
-interface ServicesProps {}
 
 const servicios: ServicioItem[] = [
   {
@@ -69,7 +67,7 @@ const servicios: ServicioItem[] = [
   },
 ];
 
-export const Services: React.FC<ServicesProps> = () => {
+export const Services: React.FC = () => {
   const [open, setOpen] = React.useState<boolean>(false);
   const [selectedService, setSelectedService] =
     React.useState<ServicioItem | null>(null);

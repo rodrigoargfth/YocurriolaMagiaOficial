@@ -22,7 +22,7 @@ const Navbar = () => {
   }, [isMenuOpen]);
 
   return (
-    <nav className="bg-[#DCC5B3]/90 backdrop-blur-3xl shadow-md fixed top-0 left-0 w-full z-50 px-16 h-20 flex items-center justify-between">
+    <nav className="bg-[#DCC5B3]/90 backdrop-blur-3xl shadow-md fixed top-0 left-0 w-full z-50 px-4 h-20 flex items-center justify-between">
       {/* Logo a la izquierda */}
       <h1 className="text-xl font-bold flex items-center gap-2 text-[#6E5F57]">
         <Icon

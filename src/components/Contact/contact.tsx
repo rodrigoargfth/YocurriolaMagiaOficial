@@ -31,7 +31,7 @@ const Contact = (): JSX.Element => {
     const email = (target.email as HTMLInputElement).value;
     const mensaje = (target.mensaje as HTMLTextAreaElement).value;
 
-    const mailtoLink = `mailto:rodrifother@gmail.com?subject=Consulta%20de%20${encodeURIComponent(
+    const mailtoLink = `mailtoyocurriolamagia@gmail.com?subject=Consulta%20de%20${encodeURIComponent(
       nombre
     )}&body=${encodeURIComponent(
       `Nombre: ${nombre}\nCorreo: ${email}\n\nMensaje:\n${mensaje}`

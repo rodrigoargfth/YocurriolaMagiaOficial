@@ -10,6 +10,7 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import cartas from "@/assets/cartas.jpg";
 import cuenco from "@/assets/cuenco.jpg";
 import piedras from "@/assets/piedras.jpg";
+import propio from "@/assets/yamiTaller.jpg";
 
 type Slide = {
   title: string;
@@ -27,12 +28,19 @@ const Banner: React.FC = () => {
     progress: number
   ) => {
     if (progressCircle.current && progressContent.current) {
-      progressCircle.current.style.strokeDashoffset = `${125.6 * (1 - progress)}`;
+      progressCircle.current.style.strokeDashoffset = `${
+        125.6 * (1 - progress)
+      }`;
       progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
     }
   };
 
   const slides: Slide[] = [
+    {
+      title: "Yamila Aranda",
+      subtitle: "Terapia Holistica",
+      src: propio.src,
+    },
     {
       title: "Conectá con tu esencia",
       subtitle: "Sanación a través de terapias holísticas",

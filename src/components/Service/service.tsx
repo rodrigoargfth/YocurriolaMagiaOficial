@@ -16,6 +16,7 @@ import reiki from "@/assets/reiki.jpg";
 import floresBach from "@/assets/productos/flowerBach.jpeg";
 import meditation from "@/assets/meditation.jpg";
 import constelacion from "@/assets/constelacion.jpg";
+import tallerAncestral from "@/assets/tallerAncestral.jpg";
 
 interface ServicioItem {
   title: string;
@@ -64,6 +65,12 @@ const servicios: ServicioItem[] = [
     ✅Mejorar el bienestar emocional
     ✅Prevenir problemas de salud mental`,
     image: constelacion.src,
+  },
+    {
+    title: "Taller de sanacion ancestral femenina",
+    description: "Taller de sanacion ancestral femenina",
+    read: `Info`,
+    image: tallerAncestral.src,
   },
 ];
 

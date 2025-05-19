@@ -10,7 +10,7 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import cartas from "@/assets/cartas.jpg";
 import cuenco from "@/assets/cuenco.jpg";
 import piedras from "@/assets/piedras.jpg";
-import yamiTaller from "@/assets/yamiTaller.jpg";
+import yamiTaller from "@/assets/yamitaller.jpg";
 
 type Slide = {
   title: string;

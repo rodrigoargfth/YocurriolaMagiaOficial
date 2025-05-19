@@ -10,7 +10,7 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import cartas from "@/assets/cartas.jpg";
 import cuenco from "@/assets/cuenco.jpg";
 import piedras from "@/assets/piedras.jpg";
-import propio from "@/assets/yamiTaller.jpg";
+import yamiTaller from "@/assets/yamiTaller.jpg";
 
 type Slide = {
   title: string;
@@ -39,7 +39,7 @@ const Banner: React.FC = () => {
     {
       title: "Yamila Aranda",
       subtitle: "Terapia Holistica",
-      src: propio.src,
+      src: yamiTaller.src,
     },
     {
       title: "Conectá con tu esencia",

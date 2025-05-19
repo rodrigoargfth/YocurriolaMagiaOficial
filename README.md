@@ -1,3 +1,4 @@
+ENLACE : https://yocurriolamagia.netlify.app/
 # Blog de Terapias Holísticas
 
 Este proyecto es un sitio web dedicado a compartir conocimientos y recursos sobre terapias holísticas, ofreciendo una plataforma informativa y educativa para aquellos interesados en el bienestar integral.
